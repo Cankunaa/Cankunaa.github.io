@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap')
+  <!-- Menu--!>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.logo {
+  height: 50px;
+  cursor: pointer;
+}
+ header {
+ background-color: #ffdcdb
+ }
+ 
+li, a, button, {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; 
+  font-size: px;
+  color: black;
+}
+
+a{
+  text-decoration:none
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+
+.nav__links{
+  list-style: none;
+  
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s; 
+}
+
+.nav__links li a:hover{
+  color: #0088a9
+}
+
+button{
+  padding:9px 25px;
+  background-color: #779ecb;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;  
+}
+
+button:hover{
+  background-color: #A7C7E7
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.wrap{
+    position:absolute;
+    width:400px;
+    height:400px;
+}
+
+.leftb, .rightb{
+    position:absolute;
+    top: 255px;
+    background: transparent url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif) repeat-y 0 0;
+    width: 50px;
+    height:10000px; 
+	background-repeat: repeat;
+	
+}
+
+.leftb {
+    left:0;    
+}
+
+.rightb {
+    right:0;
+}
+
+
+main {
+  background-image: url("https://patchnpawart.files.wordpress.com/2021/08/cropped-cropped-hfsdrxgdssdg-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  width: 900;
+  height: 100%;
+  left:0;
+  right:0;
+}
