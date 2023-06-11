@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap')
-  <!-- Menu--!>
 *{
     box-sizing: border-box;
     margin: 0;
@@ -15,11 +14,10 @@
  background-color: #ffdcdb
  }
  
-li, a, button, {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500; 
-  font-size: px;
-  color: black;
+li, a, button {
+  font-family:"Montserrat", sans-serif;
+  font-weight:500px; 
+  color:black
 }
 
 a{
